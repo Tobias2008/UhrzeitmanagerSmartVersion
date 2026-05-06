@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>🎁 Überraschung</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
+      color: #f1f1f1;
+      font-family: "Courier New", monospace;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      text-align: center;
+      max-width: 800px;
+      padding: 30px;
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 20px;
+      background: rgba(255,255,255,0.05);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 0 30px rgba(0,0,0,0.6);
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 20px;
+      letter-spacing: 1px;
+    }
+
+    .message {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      margin-bottom: 30px;
+      opacity: 0.9;
+    }
+
+    .highlight {
+      color: #00ffd5;
+      font-weight: bold;
+    }
+
+    .image-box {
+      margin-top: 20px;
+      padding: 15px;
+      border-radius: 15px;
+      background: rgba(255,255,255,0.05);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      max-width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .image-box:hover {
+      transform: scale(1.03);
+      box-shadow: 0 0 20px rgba(0,255,213,0.3);
+    }
+
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
+    .footer {
+      margin-top: 25px;
+      font-size: 0.9rem;
+      opacity: 0.6;
+    }
+
+    .glow {
+      animation: glow 2s infinite alternate;
+    }
+
+    @keyframes glow {
+      from { text-shadow: 0 0 5px #00ffd5; }
+      to { text-shadow: 0 0 20px #00ffd5; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1 class="glow">🎉 Alles Gute zum Geburtstag 🎉</h1>
+
+    <div class="message">
+      Uhm, du glaubst mir vielleicht jetzt nicht… aber bro…  
+      <br><br>
+      wir gehen auf das <span class="highlight">Mac DeMarco</span> Konzert 
+      <br><br>
+      und nein… das ist kein Joke, kein diddy-ahh Fake  
+      <br><br>
+      das hier ist echt.
+    </div>
+
+    <div class="image-box">
+      <img src="final-image.jpg" alt="Tickets">
+    </div>
+
+    <div class="footer">
+      … lwk, ich dachte mir, dadurch dass du lwk ein toller Freund und Mensch bist,  
+      dass ich dir wirklich eine Freude machen möchte.  
+      Ich dachte mir, da du letzten Sommer schon von einem Mac DeMarco Konzert geredet hast,  
+      dass das lwk das beste Geschenk ist, das man dir machen kann…  
+      ich hoffe, du freust dich 
+    </div>
+  </div>
+
+</body>
+</html>
